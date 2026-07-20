@@ -2,11 +2,12 @@
   "expo": {
     "name": "Restaurant",
     "slug": "restaurant-app",
+    "owner": "hashimoto3717",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "cover",
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a9b2a566-3841-4531-a672-427f3be4d9c3"
+      }
     }
   }
 }
