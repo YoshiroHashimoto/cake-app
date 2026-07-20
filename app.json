@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Restaurant",
+    "slug": "restaurant-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1C1A17"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.restaurant.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1C1A17"
+      },
+      "package": "com.restaurant.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
